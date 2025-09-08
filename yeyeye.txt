@@ -1,0 +1,43 @@
+{
+  // ==== Physics & Dash Tech ====
+  "DFIntSimExplicitlyCappedTimestepMultiplier": 1,
+  "DFIntSimDefaultHumanoidTimestepMultiplier": 1,
+  "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": 1,
+  "DFIntServerPhysicsUpdateRate": 60,
+  "DFIntPhysicsImprovedCyclicExecutiveThrottleThresholdTenth": -10000,
+
+  // ==== Super Short Knockback (musuh mental dekat & cepat berhenti) ====
+  "DFIntHumanoidMassScaleThresholdThou": 50,
+  "DFIntStandardHumanoidAssyMassThou": 20000,
+  "DFIntHumanoidFloorManualFrictionVelocityMultValue": 3,
+  "DFIntRagdollSlowEnoughToNotTenth": 20,
+
+  // ==== Hitbox luas ====
+  "DFIntSmoothTerrainPhysicsRayAabbSlop": 15,
+  "FIntPhysicsSolverCollisionPoolBucketSize": 16384,
+
+  // ==== FPS Boost ====
+  "DFIntTaskSchedulerTargetFps": 9999,
+  "FIntTargetRefreshRate": 240,
+  "FIntRuntimeMaxNumOfThreads": 8000000,
+  "FIntRuntimeMaxNumOfSchedulers": 8000000,
+
+  // ==== Network Stabil + Anti-Ping Spike ====
+  "DFIntNetworkBandwidthThrottlingMax": 200000,
+  "DFIntNetworkBandwidthThrottlingMin": 80000,
+  "DFIntNetworkProcessPacketThresholdMs": 0,
+  "DFIntRakNetPingFrequencyMillisecond": 60,
+  "DFIntPlayerNetworkUpdateRate": 60,
+  "DFIntRakNetResendMinThresholdTimeInUs": 10000,
+  "DFIntRakNetResendMaxThresholdTimeInUs": 50000,
+  "DFIntRakNetNakResendDelayMs": 5,
+
+  // ==== Trik Ping (kadang bisa terlihat 0 ms) ====
+  "DFIntDebugNetworkPacketAgeHistory": 0,
+  "DFIntMaxDebugNetworkUpdateTimestamps": 0,
+
+  // ==== Grafik Normal (tidak ubah warna / render distance) ====
+  "DFIntTextureQualityOverride": 1,
+  "FIntFRMMaxGrassDistance": 0,
+  "FIntFRMMinGrassDistance": 0
+}

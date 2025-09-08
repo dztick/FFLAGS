@@ -1,0 +1,56 @@
+{
+  // 🔹 Ultra Magnet Assist (Stabil)
+  "DFIntHumanoidPositionPredictionBoost": "200",
+  "DFIntHorizontalKnockbackCatchupTolerance": "120",
+  "DFIntHorizontalKnockbackPredictionBoost": "200",
+  "DFIntDashAccelerationPredictionBoost": "250",
+
+  // 🔹 Knockback Bawah (tetap angkat Supa Tech)
+  "DFIntHumanoidVerticalVelocityBoost": "200",
+  "DFIntHumanoidUpwardKnockbackReduction": "0",
+  "DFIntHumanoidGravityBoost": "50",
+  "DFIntHumanoidFallSpeedLimit": "999",
+
+  // 🔹 Visual Slowdown Musuh Setelah Dash (~0,7 Detik)
+  "DFIntHorizontalKnockbackCatchupTolerance": "0",
+  "DFIntHorizontalKnockbackPredictionBoost": "0",
+  "DFIntHumanoidVerticalCatchupTolerance": "0",
+  "DFIntHumanoidVerticalPositionBoost": "0",
+  "DFIntInterpolationDelayAdjustMaxMs": "700",
+  "DFIntInterpolationExtrapolationMaxMs": "700",
+
+  // 🔹 Side Dash Stop Assist
+  "DFIntSideDashTargetLockTolerance": "80",
+  "DFIntSideDashKnockbackCancelTolerance": "100",
+  "DFIntSideDashKnockbackCancelMultiplier": "0",
+  "DFIntSideDashKnockbackVelocityDampening": "100",
+  "DFIntSideDashRangeBoostTimeMs": "1000",
+  "DFIntSideDashRangeBoostPercent": "200",
+
+  // 🔹 Follow-up Range Boost (1 detik)
+  "DFIntPostHitboxRangeBoostTimeMs": "1000",
+  "DFIntPostHitboxRangeBoostPercent": "300",
+
+  // 🔹 Directional Range Boost (1 detik)
+  "DFIntPostHitboxForwardBoostPercent": "300",
+  "DFIntPostHitboxVerticalBoostPercent": "200",
+  "DFIntPostHitboxBoostTimeMs": "1000",
+
+  // 🔹 No Delay Front Dash → Side Dash
+  "DFIntDashDirectionChangeCooldownMs": "0",
+  "DFIntDashCancelWindowMs": "0",
+
+  // 🔹 Side Dash Boost setelah Front Dash (1 Detik)
+  "DFIntSideDashAccelerationBoostPercent": "300",
+  "DFIntSideDashMaxSpeedBoostPercent": "200",
+  "DFIntSideDashBoostDurationMs": "1000",
+
+  // 🔹 Combo Chaining FastFlags (Stabil)
+  "DFIntReplicationDataCacheNumParallelTasks": "300",
+  "DFIntPhysicsReceiveNumParallelTasks": "300",
+  "DFIntNetworkInProcessLimitGameplayMsClient": "40",
+
+  // 🔹 HUD
+  "FFlagDebugDisplayFPS": "true",
+  "FFlagDebugDisplayPing": "true"
+}
