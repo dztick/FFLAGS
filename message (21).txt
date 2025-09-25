@@ -512,6 +512,7 @@
     "FFlagRealTimeAnimationEnableRefactor": "True",
     "FFlagUserSoundsUseRelativeVelocity2": "True",
     "FFlagEnableInGameMenuChromeABTest4": "False",
+    "FFlagNextGenReplicatorEnabledWrite4": "true",
     "FFlagDebugRenderingSetDeterministic": "True",
     "FFlagLuaAppEnableFoundationColors7": "False",
     "FFlagDebugForceFutureIsBrightPhase3": "True",
